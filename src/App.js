@@ -15,8 +15,8 @@ function App() {
         <Cards style={{ width: "300px" }} describe="Pokémon Legendario Tipo Hielo" title="Articuno" source='https://cdn.pixabay.com/photo/2016/08/05/15/24/team-1572483_1280.jpg'/>
         <Cards style={{ width: "300px" }} describe="Pokémon Legendario Tipo Eléctrico" title="Zapdos" source='https://cdn.pixabay.com/photo/2016/08/05/15/22/team-1572475_1280.jpg'/>
       </div>
-      <Button variant='primary'> Elige tu Pokémon </Button>
-      <Footer className="Pie" title="Elige tu destino con sabiduría"/>
+      <Button variant='primary' style={{marginBlock: '7px'}}> Elige tu Pokémon </Button>
+      <Footer style={{backgroundColor: 'blue', marginBlock: '4px'}} className="Pie" title="Elige tu destino con sabiduría"/>
     </div>
   );
 }
